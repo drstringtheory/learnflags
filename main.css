@@ -1,0 +1,169 @@
+/*all*/
+body {
+    background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* app-box */ 
+.javascriptapp {
+    background-color: white;
+    border-radius: 5vh;
+    height: auto;
+    width: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 4vh;
+    font-family: 'Kumbh Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+/* image flag */
+.image-flag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-flag img {
+    height: auto;
+    width: 30vh;
+}
+
+/* form */
+ul li label {
+    cursor: pointer;
+}
+
+label {
+    font-family: 'Kumbh Sans', sans-serif;
+    margin-top: 5px;
+    font-size: 2vh;
+}
+
+ul {
+    padding: 0px;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    margin-bottom: 1.5;
+    margin-top: 1.5vh;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.button-bottom-left {
+    float: left;
+}
+
+.button-bottom-right {
+    float: left;
+}
+
+button {
+    background-color: #4ef18f;
+	display:inline-block;
+	padding:0.6em 1.2em;
+	margin:0 0.1em 0.1em 0;
+	border:0.16em solid rgba(255,255,255,0);
+	border-radius:2em;
+	box-sizing: border-box;
+	text-decoration:none;
+	font-family: 'Roboto', sans-serif;
+	font-weight:300;
+	color: white;
+	text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+	text-align:center;
+    transition: all 0.2s;
+    font-size: 1.9vh;
+    margin-bottom: 2vh;
+}
+
+ button:hover{
+	border-color: rgba(255,255,255,1);
+}
+
+
+/* reload-screen */
+.end-answer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.end-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media all and (max-width:30em){
+	button {
+		display:block;
+		margin:0.2em auto;
+	}
+}
+/* end app */
+
+
+/* Galaxy 5 &&&&& Moto G4 - 360 x 640 */
+@media (max-width:360px){
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    .javascriptapp h2 {
+        font-size: 2vh;
+        margin-top: 4vh;
+    }
+
+    .links-nav li{
+        margin-top: 14px;
+    }
+    .javascriptapp {
+        width: 90%;
+        height: auto;
+    }
+    .links-nav a {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    .header-top h2 {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    .image-flag {
+        margin-top: 20px;
+    }
+    .button-bottom {
+        font-size: 5px;
+    }
+    .form-mid ul {
+        margin-top: 10px;
+    }
+    .form-mid input {
+        margin-right:0.3vh;
+    }
+    .header-container {
+        margin: 0px;
+    }
+}
